@@ -29,7 +29,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
             loginForm.style.display = 'none';
             
             // 2. Change the title
-            title.textContent = "Success!";
+            title.textContent = "Failed!";
             
             // 3. Show the image (The Pop-up effect)
             popupImage.style.display = 'block';

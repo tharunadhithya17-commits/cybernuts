@@ -20,7 +20,7 @@ def login():
     user_found = next((u for u in users if u['username'] == username and u['password'] == password), None)
 
     if user_found:
-        return jsonify({"success": True, "message": "Login successful! Welcome back."}), 200
+        return jsonify({"success": True, "message": "thothukite erukiyeda !!!"}), 200
     else:
         return jsonify({"success": False, "message": "Invalid username or password."}), 401
 
